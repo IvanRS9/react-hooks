@@ -6,6 +6,7 @@ import StateHook from './Components/StateHook'
 import State from './Components/State'
 import Effect from './Components/Effect'
 import VideoState from './Components/VideoState'
+import Customhook from './Components/Customhook'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
         {/* <StateHook /> */}
         {/* <State /> */}
         {/* <Effect /> */}
-        <VideoState />
+        {/* <VideoState /> */}
+        <Customhook />
       </div>
     </>
   )
